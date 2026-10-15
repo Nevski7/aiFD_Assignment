@@ -47,6 +47,9 @@ nav a {
 
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #1F2937;
     color: white;
     text-align: center;
