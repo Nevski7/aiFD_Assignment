@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Frontiers</title>
 </head>
 <body>
@@ -42,8 +43,14 @@
             <button class="primary-btn">Start Exploring</button>
         </div>
         <div class="hero-image">
-            <img src="https://via.placeholder.com/400x200" alt="Hero placeholder image">
+            <picture>
+                <!-- Loads this smaller image on screens 768px or smaller -->
+                <source media="(max-width: 768px)" srcset="images/hero_mobile.jpg">
+                <!-- Default image for larger desktop screens -->
+                <img src="images/hero_desktop.jpg" alt="Front End Frontiers digital design process">
+            </picture>
         </div>
+       
     </section>
 
     <!-- Information Section -->
@@ -51,15 +58,27 @@
         <h2>The Tools We Command.</h2>
         <div class="info-container">
             <div class="info-card">
-                <div class="box-placeholder"></div>
+                
+                    <div class="box-placeholder">
+                        <i class="fa-solid fa-palette info-icon"></i>
+                    </div>
                 <p>Crafting seamless user experiences and pixel-perfect mockups from initial concept to final design.</p>
+               
             </div>
             <div class="info-card">
-                <div class="box-placeholder"></div>
+                
+                <div class="box-placeholder">
+                    <i class="fa-solid fa-code info-icon"></i>
+                </div>
+                
                 <p>Building highly interactive and responsive client-side interfaces using modern component-based libraries.</p>
             </div>
             <div class="info-card">
-                <div class="box-placeholder"></div>
+                
+                <div class="box-placeholder">
+                    <i class="fa-solid fa-server info-icon"></i>
+                </div>
+                
                 <p>Powering your applications with secure, scalable databases and robust server-side frameworks.</p>
             </div>
         </div>
