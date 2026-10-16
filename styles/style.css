@@ -69,20 +69,24 @@ body {
     padding: 80px 10%;
     gap: 40px;
 }
+
 .hero-content {
     flex: 1;
 }
+
 .hero h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
     margin-bottom: 10px;
 }
+
 .hero p {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 20px;
 }
+
 .hero-image {
     flex: 1;
     display: flex;
@@ -95,6 +99,7 @@ body {
     height: auto;
     border-radius: 8px;
 }
+
 .primary-btn {
     background-color: #3882F6;
     color: white;
@@ -125,6 +130,7 @@ main h1{
     margin: 10px;
     color:#1F2937;
 }
+
  #about-img{
     width: 100%;
     height: 100%;
@@ -178,21 +184,24 @@ main h1{
     padding: 60px 10%;
     text-align: center;
 }
+
 .information h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
     margin-bottom: 40px;
 }
+
 .info-container {
     display: flex;
     justify-content: center;
     gap: 40px;
-    flex-wrap;
 }
+
 .info-card {
     max-width: 200px;
 }
+
 .box-placeholder {
     width: 150px;
     height: 150px;
@@ -217,6 +226,7 @@ main h1{
     display: flex;
     flex-direction: column;
 }
+
 .quote blockquote {
     font-size: 36px;
     font-weight: 300;
@@ -224,6 +234,7 @@ main h1{
     color: #1F2937;
     margin-bottom: 15px;
 }
+
 .quote cite {
     align-self: flex-end;
     font-weight: bold;
@@ -241,6 +252,7 @@ main h1{
     align-items: center;
     color: white;
 }
+
 .secondary-btn {
     text-decoration: none;
     text-align: center;
