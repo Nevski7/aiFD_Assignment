@@ -109,7 +109,37 @@ body {
 }
 
 /*--- ABOUT SECTION ---*/
+#main-about{
+    color: white;
+    background-color: #1F2937;
+    min-height: 100vh;
+}
 
+main h1{
+    padding: 20px;
+}
+
+.about{
+    display: flex;
+    background-color: #1F2937;
+}
+
+.about section{
+    background-color: #E5E7EB;
+    border: 5px solid  #3882F6;
+    border-radius: 5px;
+    margin: 10px;
+    width: 90%;
+    color:#1F2937;
+}
+ #about-img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-text{
+    padding: 10px;
+}
 
 /* --- ARTICLES SECTION --- */
 .articles{
@@ -136,12 +166,9 @@ body {
     padding: 10px;
     margin: 10px;
     width: 90%;
+    color:#1F2937;
 }
-/*
-.articles .article.right{
-    border-color: yellow;
-}
-*/
+
 /* --- INFORMATION SECTION --- */
 .information {
     padding: 60px 10%;
