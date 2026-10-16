@@ -126,6 +126,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap;
 }
 .info-card {
     max-width: 200px;
