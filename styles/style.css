@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,800&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -53,8 +55,6 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,800&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -188,6 +188,7 @@ main h1{
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap;
 }
 .info-card {
     max-width: 200px;
@@ -265,6 +266,24 @@ main h1{
     max-width: 400px;
     margin: 0 auto;
 }
+
+input, textarea, button {
+    transition: box-shadow 0.3s ease-in-out;
+    border: 1px solid #9CA3AF;
+    border-radius: 4px;
+    padding: 8px;
+    font: inherit;
+}
+
+input:hover, textarea:hover, button:hover {
+    box-shadow: 0 0 10px rgba(56, 130, 246, 0.5);
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid #3882F6;
+    box-shadow: 0 0 10px rgba(56, 130, 246, 0.5);
+}
+
 .contact-btn {
     background-color: #3882F6;
     color: white;
@@ -288,6 +307,11 @@ main h1{
     }
     .quote {
         padding: 40px 10%;
+    }
+
+    img.logo {
+        width: 80px;
+        height: 50px;
     }
 
     .hamburger {
