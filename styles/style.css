@@ -283,11 +283,6 @@ input:focus, textarea:focus {
     box-shadow: 0 0 10px rgba(56, 130, 246, 0.5);
 }
 
-/* .contact-form input:hover, .contact-form textarea:hover, .contact-form button:hover {
-    box-shadow: 0 0 10px rgba(56, 130, 246, 0.5);
-    transition: box-shadow 0.3s ease-in-out;
-} */
-
 .contact-btn {
     background-color: #3882F6;
     color: white;
