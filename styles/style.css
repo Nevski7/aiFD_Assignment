@@ -4,8 +4,7 @@
     padding: 0;
 }
 
-
-
+/* --- HEADER AND FOOTER SECTION --- */
 header {
     display: flex;
     justify-content: space-between;
@@ -45,10 +44,6 @@ nav a {
     color: #F9FAF8;
 }
 
-
-
-
-
 footer {
     position: fixed;
     bottom: 0;
@@ -58,7 +53,6 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,800&display=swap');
 
@@ -74,6 +68,9 @@ body {
     background-color: #1F2937;
     padding: 80px 10%;
     gap: 40px;
+}
+.hero-content {
+    flex: 1;
 }
 .hero h1 {
     font-size: 48px;
@@ -237,10 +234,35 @@ main h1{
     color: white;
 }
 .secondary-btn {
+    text-decoration: none;
+    text-align: center;
     background-color: transparent;
     border: 2px solid white;
     color: white;
     padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* --- CONTACT SECTION --- */
+.contact {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact-btn {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 25px;
+    border: none;
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
