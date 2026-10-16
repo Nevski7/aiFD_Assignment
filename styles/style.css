@@ -187,9 +187,14 @@ body {
 
 @media (max-width: 768px) {
 
-    .hero, .info-container, .call-to-action {
+   .hero, .info-container, .call-to-action {
         flex-direction: column;
         text-align: center;
+    }
+
+    /* Add this specific rule to center the cards */
+    .info-container {
+        align-items: center;
     }
     .quote {
         padding: 40px 10%;
