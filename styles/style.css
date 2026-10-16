@@ -265,6 +265,29 @@ main h1{
     max-width: 400px;
     margin: 0 auto;
 }
+
+input, textarea, button {
+    transition: box-shadow 0.3s ease-in-out;
+    border: 1px solid #9CA3AF;
+    border-radius: 4px;
+    padding: 8px;
+    font: inherit;
+}
+
+input:hover, textarea:hover, button:hover {
+    box-shadow: 0 0 10px rgba(56, 130, 246, 0.5);
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid #3882F6;
+    box-shadow: 0 0 10px rgba(56, 130, 246, 0.5);
+}
+
+/* .contact-form input:hover, .contact-form textarea:hover, .contact-form button:hover {
+    box-shadow: 0 0 10px rgba(56, 130, 246, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+} */
+
 .contact-btn {
     background-color: #3882F6;
     color: white;
