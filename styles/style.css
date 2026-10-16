@@ -313,7 +313,7 @@ input:focus, textarea:focus {
         text-align: center;
     }
 
-    /* Add this specific rule to center the cards */
+   
     .info-container {
         align-items: center;
     }
