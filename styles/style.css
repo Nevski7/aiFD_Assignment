@@ -105,7 +105,7 @@ body {
     cursor: pointer;
 }
 
-/*--- ABOUT SECTION ---*/
+/*--- ABOUT ---*/
 #main-about{
     color: white;
     background-color: #1F2937;
@@ -145,7 +145,7 @@ main h1{
     justify-content: space-between;
 }
 
-/* --- ARTICLES SECTION --- */
+/* --- ARTICLES --- */
 .articles{
     background-color: #1F2937;
     min-height: 100vh;
@@ -322,6 +322,13 @@ main h1{
     /* Show navigation when checked */
     .menu-toggle:checked ~ nav {
         display: block;
+    }
+
+    /* ABOUT */
+
+    .about{
+        display: flex;
+        flex-direction: column;
     }
 }
 
