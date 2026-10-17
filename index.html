@@ -13,9 +13,9 @@
         <picture>
             <source srcset="images/FrontiersLogoMobile.png"
                     media="(max-width: 768px)">
-            <img class="logo"
-                 src="images/FrontiersLogoNoBackground.png"
-                 alt="Frontiers Logo">
+            <img    class="logo"
+                    src="images/FrontiersLogoNoBackground.png"
+                    alt="Frontiers Logo">
         </picture>
     </a>
 
@@ -36,9 +36,9 @@
     </header>
     <main>
             <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" aria-labelledby="hero-title">
         <div class="hero-content">
-            <h1>Launch Your Digital Frontier</h1>
+            <h1 id="hero-title">Launch Your Digital Frontier</h1>
             <p>We build lightning-fast, responsive web applications that push the boundaries of modern design and robust code.</p>
             <button class="primary-btn">Start Exploring</button>
         </div>
@@ -52,31 +52,25 @@
         </figure>
     </section>
     <!-- Information Section -->
-    <section class="information">
-        <h2>The Tools We Command.</h2>
+    <section class="information" aria-labelledby="info-title">
+        <h2 id="info-title">The Tools We Command.</h2>
         <div class="info-container">
             <article class="info-card">
-                
                     <div class="box-placeholder">
                         <i class="fa-solid fa-palette info-icon"></i>
                     </div>
                 <p>Crafting seamless user experiences and pixel-perfect mockups from initial concept to final design.</p>
-               
             </article>
-            <article class="info-card">
-                
+            <article class="info-card">      
                 <div class="box-placeholder">
                     <i class="fa-solid fa-code info-icon"></i>
-                </div>
-                
+                </div>  
                 <p>Building highly interactive and responsive client-side interfaces using modern component-based libraries.</p>
             </article>
             <article class="info-card">
-                
                 <div class="box-placeholder">
                     <i class="fa-solid fa-server info-icon"></i>
-                </div>
-                
+                </div>     
                 <p>Powering your applications with secure, scalable databases and robust server-side frameworks.</p>
             </article>
             <article class="info-card">
@@ -84,27 +78,24 @@
                     <i class="fa-solid fa-rocket info-icon"></i>
                 </div>
                 <p>Launching your digital presence with seamless full-stack solutions and ongoing support.</p>
-            </div>
+            </article>
         </div>
     </section>
-
     <!-- Quote Section -->
-    <section class="quote">
+    <section class="quote" aria-label="Team Philosophy">
         <blockquote>
         "The web is a vast, ever-changing frontier. We don't just explore it; we build the launchpads that take your digital presence to the next level."        
         </blockquote>
         <cite>- The Front End Frontiers Team</cite>
-    </section>
-    
+    </section>  
     <!-- Call to Action Section  -->
-    <section class="call-to-action">
+    <section class="call-to-action" aria-labelledby="cta-title">
         <div class="cta-content">
-            <h3>Ready to launch your next project?</h3>
+            <h3 id="cta-title">Ready to launch your next project?</h3>
             <p>Join us in pushing the boundaries of web development. Let's write some incredible code together.</p>
         </div>
         <a href="contact.html" class="secondary-btn">Contact Us</a>
     </section>
-
     </main>
     <footer>
         <p>&copy; 2026 Frontiers. All rights reserved.</p>
