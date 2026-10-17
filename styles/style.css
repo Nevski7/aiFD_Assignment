@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,800&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-
-
+/* --- HEADER AND FOOTER SECTION --- */
 header {
     display: flex;
     justify-content: space-between;
@@ -45,10 +46,6 @@ nav a {
     color: #F9FAF8;
 }
 
-
-
-
-
 footer {
     position: fixed;
     bottom: 0;
@@ -58,9 +55,6 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,800&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -75,17 +69,24 @@ body {
     padding: 80px 10%;
     gap: 40px;
 }
+
+.hero-content {
+    flex: 1;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
     margin-bottom: 10px;
 }
+
 .hero p {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 20px;
 }
+
 .hero-image {
     flex: 1;
     display: flex;
@@ -98,6 +99,7 @@ body {
     height: auto;
     border-radius: 8px;
 }
+
 .primary-btn {
     background-color: #3882F6;
     color: white;
@@ -108,85 +110,7 @@ body {
     cursor: pointer;
 }
 
-/* --- INFORMATION SECTION --- */
-.information {
-    padding: 60px 10%;
-    text-align: center;
-}
-.information h2 {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1F2937;
-    margin-bottom: 40px;
-}
-.info-container {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-.info-card {
-    max-width: 200px;
-}
-.box-placeholder {
-    width: 150px;
-    height: 150px;
-    border: 4px solid #3882F6;
-    border-radius: 16px;
-    margin: 0 auto 15px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.info-icon {
-    font-size: 80px;
-    color: #3882F6;
-    margin-bottom: 0;
-}
-
-/* --- QUOTE SECTION --- */
-.quote {
-    background-color: #E5E7EB;
-    padding: 80px 20%;
-    display: flex;
-    flex-direction: column;
-}
-.quote blockquote {
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-    color: #1F2937;
-    margin-bottom: 15px;
-}
-.quote cite {
-    align-self: flex-end;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-/* --- CTA SECTION --- */
-.call-to-action {
-    background-color: #3882F6;
-    margin: 60px 10%;
-    padding: 40px;
-    border-radius: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-}
-.secondary-btn {
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    padding: 10px 25px;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-
-/*--- ABOUT PAGE ---*/
+/*--- ABOUT ---*/
 #main-about{
     color: white;
     background-color: #1F2937;
@@ -206,6 +130,7 @@ main h1{
     margin: 10px;
     color:#1F2937;
 }
+
  #about-img{
     width: 100%;
     height: 100%;
@@ -226,7 +151,7 @@ main h1{
     justify-content: space-between;
 }
 
-/* --- ARTICLES PAGE --- */
+/* --- ARTICLES --- */
 .articles{
     background-color: #1F2937;
     min-height: 100vh;
@@ -254,6 +179,132 @@ main h1{
     color:#1F2937;
 }
 
+/* --- INFORMATION SECTION --- */
+.information {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-card {
+    max-width: 200px;
+}
+
+.box-placeholder {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    margin: 0 auto 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-icon {
+    font-size: 80px;
+    color: #3882F6;
+    margin-bottom: 0;
+}
+
+/* --- QUOTE SECTION --- */
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 15px;
+}
+
+.quote cite {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* --- CTA SECTION --- */
+.call-to-action {
+    background-color: #3882F6;
+    margin: 60px 10%;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.secondary-btn {
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* --- CONTACT SECTION --- */
+.contact {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    transition: box-shadow 0.3s ease-in-out;
+    border: 1px solid #9CA3AF;
+    border-radius: 4px;
+    padding: 8px;
+    font: inherit;
+}
+
+input:hover, textarea:hover, button:hover {
+    box-shadow: 0 0 10px rgba(56, 130, 246, 0.5);
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid #3882F6;
+    box-shadow: 0 0 10px rgba(56, 130, 246, 0.5);
+}
+
+.contact-btn {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 @media (max-width: 768px) {
 
@@ -268,6 +319,11 @@ main h1{
     }
     .quote {
         padding: 40px 10%;
+    }
+
+    img.logo {
+        width: 80px;
+        height: 50px;
     }
 
     .hamburger {
