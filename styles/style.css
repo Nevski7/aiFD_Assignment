@@ -242,13 +242,16 @@ input:focus, textarea:focus {
 
 /*--- ABOUT PAGE ---*/
 #main-about{
-    color: white;
+    color: #F9FAF8;
     background-color: #1F2937;
     min-height: 100vh;
+    margin-bottom: 30px;
 }
 
 main h1{
+    font-size: 40px;
     padding: 20px;
+    text-align: center;
 }
 
 .about{
@@ -256,7 +259,7 @@ main h1{
     background-color: #1F2937;
 }
 
-.about section{
+.about div{
     margin: 10px;
     color:#1F2937;
 }
@@ -279,6 +282,33 @@ main h1{
     padding: 10px;
     flex-direction: column;
     justify-content: space-between;
+}
+
+
+.our-team{
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.person-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.person-card p{
+    text-align: center;
+}
+
+.team-icon{
+    background-color: #E5E7EB;
+    width: 100%;
 }
 
 /* --- ARTICLES PAGE --- */
@@ -370,6 +400,18 @@ main h1{
         display: flex;
         flex-direction: column;
     }
+
+    .our-team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .team-container {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 
