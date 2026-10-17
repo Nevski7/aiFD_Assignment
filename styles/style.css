@@ -240,13 +240,16 @@ input:focus, textarea:focus {
 
 /*--- ABOUT PAGE ---*/
 #main-about{
-    color: white;
+    color: #F9FAF8;
     background-color: #1F2937;
     min-height: 100vh;
+    margin-bottom: 30px;
 }
 
 main h1{
+    font-size: 40px;
     padding: 20px;
+    text-align: center;
 }
 
 .about{
@@ -279,9 +282,9 @@ main h1{
     justify-content: space-between;
 }
 
+
 .our-team{
     background-color: #F9FAF8;
-    margin-bottom: 200px;
     color: #1F2937;
 }
 
@@ -292,10 +295,17 @@ main h1{
 }
 
 .person-card {
-    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.person-card p{
+    text-align: center;
 }
 
 .team-icon{
+    background-color: #E5E7EB;
     width: 100%;
 }
 
@@ -388,6 +398,18 @@ main h1{
         display: flex;
         flex-direction: column;
     }
+
+    .our-team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .team-container {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 
