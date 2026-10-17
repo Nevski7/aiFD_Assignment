@@ -254,7 +254,7 @@ main h1{
     background-color: #1F2937;
 }
 
-.about section{
+.about div{
     margin: 10px;
     color:#1F2937;
 }
@@ -277,6 +277,26 @@ main h1{
     padding: 10px;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.our-team{
+    background-color: #F9FAF8;
+    margin-bottom: 200px;
+    color: #1F2937;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.person-card {
+    max-width: 200px;
+}
+
+.team-icon{
+    width: 100%;
 }
 
 /* --- ARTICLES PAGE --- */
