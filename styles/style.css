@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,800&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -54,8 +56,6 @@ footer {
     padding: 10px 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,800&display=swap');
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -69,17 +69,24 @@ body {
     padding: 80px 10%;
     gap: 40px;
 }
+
+.hero-content {
+    flex: 1;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
     margin-bottom: 10px;
 }
+
 .hero p {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 20px;
 }
+
 .hero-image {
     flex: 1;
     display: flex;
@@ -92,6 +99,7 @@ body {
     height: auto;
     border-radius: 8px;
 }
+
 .primary-btn {
     background-color: #3882F6;
     color: white;
@@ -102,25 +110,98 @@ body {
     cursor: pointer;
 }
 
+/*--- ABOUT ---*/
+#main-about{
+    color: white;
+    background-color: #1F2937;
+    min-height: 100vh;
+}
+
+main h1{
+    padding: 20px;
+}
+
+.about{
+    display: flex;
+    background-color: #1F2937;
+}
+
+.about section{
+    margin: 10px;
+    color:#1F2937;
+}
+
+ #about-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text{
+    display: flex;
+    background-color: #E5E7EB;
+    border: 5px solid  #3882F6;
+    border-radius: 5px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* --- ARTICLES --- */
+.articles{
+    background-color: #1F2937;
+    min-height: 100vh;
+}
+
+.articles div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.articles h1{
+    padding: 20px;
+    color: #E5E7EB;
+}
+
+.articles .article{
+    background-color: #E5E7EB;
+    border: 5px solid  #3882F6;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    color:#1F2937;
+}
+
 /* --- INFORMATION SECTION --- */
 .information {
     padding: 60px 10%;
     text-align: center;
 }
+
 .information h2 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
     margin-bottom: 40px;
 }
+
 .info-container {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
+
 .info-card {
     max-width: 200px;
 }
+
 .box-placeholder {
     width: 150px;
     height: 150px;
@@ -145,6 +226,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .quote blockquote {
     font-size: 36px;
     font-weight: 300;
@@ -152,6 +234,7 @@ body {
     color: #1F2937;
     margin-bottom: 15px;
 }
+
 .quote cite {
     align-self: flex-end;
     font-weight: bold;
@@ -169,6 +252,7 @@ body {
     align-items: center;
     color: white;
 }
+
 .secondary-btn {
     text-decoration: none;
     text-align: center;
@@ -194,6 +278,24 @@ body {
     max-width: 400px;
     margin: 0 auto;
 }
+
+input, textarea, button {
+    transition: box-shadow 0.3s ease-in-out;
+    border: 1px solid #9CA3AF;
+    border-radius: 4px;
+    padding: 8px;
+    font: inherit;
+}
+
+input:hover, textarea:hover, button:hover {
+    box-shadow: 0 0 10px rgba(56, 130, 246, 0.5);
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid #3882F6;
+    box-shadow: 0 0 10px rgba(56, 130, 246, 0.5);
+}
+
 .contact-btn {
     background-color: #3882F6;
     color: white;
@@ -206,9 +308,13 @@ body {
 
 @media (max-width: 768px) {
 
-    .hero, .info-container, .call-to-action {
+   .hero, .info-container, .call-to-action {
         flex-direction: column;
         text-align: center;
+    }
+
+    .info-container {
+        align-items: center;
     }
     
     .quote {
@@ -247,6 +353,13 @@ body {
     /* Show navigation when checked */
     .menu-toggle:checked ~ nav {
         display: block;
+    }
+
+    /* ABOUT */
+
+    .about{
+        display: flex;
+        flex-direction: column;
     }
 }
 
