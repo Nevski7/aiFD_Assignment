@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* --- HEADER AND FOOTER SECTION --- */
 header {
     position:sticky;
@@ -16,7 +20,6 @@ header {
     background-color: #1F2937;
     margin: 0;
     padding: 0px 20px;
-
 }
 
 .menu-toggle {
@@ -49,17 +52,11 @@ nav a {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color: #1F2937;
     color: white;
     text-align: center;
     padding: 10px 0;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
 }
 
 /* --- HERO SECTION --- */
@@ -112,8 +109,6 @@ body {
     cursor: pointer;
 }
 
-<<<<<<< Updated upstream
-=======
 /*--- ABOUT ---*/
 #main-about{
     color: white;
@@ -183,7 +178,6 @@ main h1{
     color:#1F2937;
 }
 
->>>>>>> Stashed changes
 /* --- INFORMATION SECTION --- */
 .information {
     padding: 60px 10%;
@@ -290,9 +284,10 @@ main h1{
 }
 
 .hero-get-in-touch p {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     line-height: 1.7;
     color: #D1D5DB;
+    text-align:center;
 }
 
 .hero-image {
@@ -624,7 +619,6 @@ main h1{
         flex-direction: column;
     }
 
-<<<<<<< Updated upstream
     .our-team{
         display: flex;
         flex-direction: column;
@@ -636,7 +630,6 @@ main h1{
         flex-direction: column;
     }
 
-=======
     .hero-contact {
         gap: 30px;
         padding: 60px 6%;
@@ -703,7 +696,6 @@ main h1{
     .contact-bottom h2 {
         font-size: 1.5rem;
     }
->>>>>>> Stashed changes
 }
 
 
