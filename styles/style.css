@@ -313,10 +313,10 @@ input:focus, textarea:focus {
         text-align: center;
     }
 
-   
     .info-container {
         align-items: center;
     }
+    
     .quote {
         padding: 40px 10%;
     }
@@ -325,7 +325,7 @@ input:focus, textarea:focus {
         width: 80px;
         height: 50px;
     }
-
+    
     .hamburger {
         display: flex;
         flex-direction: column;
