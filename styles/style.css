@@ -108,74 +108,6 @@ body {
     cursor: pointer;
 }
 
-/*--- ABOUT ---*/
-#main-about{
-    color: white;
-    background-color: #1F2937;
-    min-height: 100vh;
-}
-
-main h1{
-    padding: 20px;
-}
-
-.about{
-    display: flex;
-    background-color: #1F2937;
-}
-
-.about section{
-    margin: 10px;
-    color:#1F2937;
-}
- #about-img{
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-text{
-    display: flex;
-    background-color: #E5E7EB;
-    border: 5px solid  #3882F6;
-    border-radius: 5px;
-    padding: 10px;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-/* --- ARTICLES --- */
-.articles{
-    background-color: #1F2937;
-    min-height: 100vh;
-}
-
-.articles div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.articles h1{
-    padding: 20px;
-    color: #E5E7EB;
-}
-
-.articles .article{
-    background-color: #E5E7EB;
-    border: 5px solid  #3882F6;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 90%;
-    color:#1F2937;
-}
-
 /* --- INFORMATION SECTION --- */
 .information {
     padding: 60px 10%;
@@ -252,6 +184,76 @@ main h1{
     font-weight: bold;
     cursor: pointer;
 }
+
+
+/*--- ABOUT PAGE ---*/
+#main-about{
+    color: white;
+    background-color: #1F2937;
+    min-height: 100vh;
+}
+
+main h1{
+    padding: 20px;
+}
+
+.about{
+    display: flex;
+    background-color: #1F2937;
+}
+
+.about section{
+    margin: 10px;
+    color:#1F2937;
+}
+ #about-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text{
+    display: flex;
+    background-color: #E5E7EB;
+    border: 5px solid  #3882F6;
+    border-radius: 5px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* --- ARTICLES PAGE --- */
+.articles{
+    background-color: #1F2937;
+    min-height: 100vh;
+}
+
+.articles div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.articles h1{
+    padding: 20px;
+    color: #E5E7EB;
+}
+
+.articles .article{
+    background-color: #E5E7EB;
+    border: 5px solid  #3882F6;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    color:#1F2937;
+}
+
 
 @media (max-width: 768px) {
 
