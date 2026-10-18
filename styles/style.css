@@ -502,6 +502,18 @@ main h1{
     text-align: center;
 }
 
+.team-box{
+    width: 150px;
+    height: 195px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin: 0 auto 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 .team-icon{
     background-color: #E5E7EB;
     width: 100%;
