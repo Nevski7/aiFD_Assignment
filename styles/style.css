@@ -411,6 +411,12 @@ main h1{
 
 .hero-about{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 20px 10%;
+    background-color: #1F2937;
+    color: white;
 }
 
 .hero-about-text{
@@ -419,13 +425,31 @@ main h1{
     width: 40%;
 }
 
+.hero-about-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-about-text p {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: #D1D5DB;
+    text-align:center;
+}
+
 .hero-about-img{
-    margin: 0%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about{
     display: flex;
-    background-color: #F9FAF8;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #F9FAFB;
 }
 
 .about div{
@@ -446,17 +470,20 @@ main h1{
 .about-text{
     display: flex;
     background-color: #E5E7EB;
-    border: 5px solid  #3882F6;
     border-radius: 5px;
     padding: 10px;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.about-text p{
+    padding: 5px;
+}
 
 .our-team{
     background-color: #D1D5DB;
     color: #1F2937;
+    padding: 5%;
 }
 
 .team-container {
@@ -560,6 +587,17 @@ main h1{
 
     .menu-toggle:checked ~ nav {
         display: block;
+    }
+
+    .hero-about{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        padding-bottom: 5%;
+    }
+
+    .hero-about-text{
+        width: 90%;
     }
 
     .about{
