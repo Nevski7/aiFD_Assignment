@@ -108,6 +108,8 @@ footer {
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none; 
+    display: inline-block;
 }
 
 /* --- INFORMATION SECTION --- */
