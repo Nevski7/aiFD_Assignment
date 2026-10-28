@@ -401,9 +401,8 @@ footer {
 
 /*--- ABOUT PAGE ---*/
 #main-about{
-    color: #F9FAF8;
-    background-color: #1F2937;
     min-height: 100vh;
+    background-color: #FFFFFF; 
 }
 
 main h1{
